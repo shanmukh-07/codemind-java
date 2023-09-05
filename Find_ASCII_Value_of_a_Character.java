@@ -1,11 +1,9 @@
 import java.util.Scanner;
-class Shan
-{
-    public static void main(String[] args)
-    {
-        Scanner sc= new Scanner(System.in);
-        char a=sc.next().charAt(0);
-        int b=a;
-        System.out.println(b);
-   }
+public class Shanmukh{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        char a = sc.next().charAt(0);
+        int b = a;
+        System.out.print(b);
+    }
 }
